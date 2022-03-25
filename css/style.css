@@ -1,0 +1,120 @@
+/* webref.ru */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* подключение шрифта */
+@font-face{
+    font-family: Roboto;
+    src:url(../fonts/Roboto-Regular.ttf)
+}
+
+
+body{
+    background-color: #efefef;
+    /* тексттин кооздугун */
+    font-family: Roboto;
+}
+
+main{
+    width: 70%;
+    margin: auto;
+    /* фон */
+    background-color: #fff;
+    /* ичинен отступ кылат */
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.4);    
+
+}
+
+
+
+.photo{
+    /* ширина */
+    width: calc(50% - 40px);
+    /* высота */
+    height: calc((35vw - 40px)/16 * 9);
+    /* отступ озунон жылдырат */
+    margin: 20px;
+    background-color: #e1e1e1e1;
+    background-position: center;
+    -webkit-box-sizing: cover;
+    background-size: cover;
+    /* Тень */
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.4);
+
+   
+
+}
+/* суротко навигация кылганда  */
+.photo:hover{
+    /* чонойтот жана айланат 3 градуска */
+    transform: scale(1.07) rotate(3deg);
+    /* Тень */
+    box-shadow: 0 0 30px 2px rgba(0,0,0,0.7);
+    /* бизлин суротубузду акырын жана плавно чонойтот жана айланат */
+    transition:  all 0.7s ease-in-out;
+}
+
+
+.heading{
+    /* текст ортого койот */
+    text-align: center; 
+    /* текст чонойтот */
+    font-size: 45px; 
+    /* астынан отступ кылат. озунон жылдырат */
+    margin-bottom: 20px; 
+    /* ширина */
+    width: 100%; 
+}
+
+.photo1{
+    background-image: url(../img/img1.jpeg);
+}
+
+
+
+
+.photo2{
+    background-image: url(../img/img2.jpeg);
+}
+
+.photo3{
+    background-image: url(../img/img3.jpeg);
+}
+
+.photo4{
+    background-image: url(../img/img4.jpeg);
+}
+
+.photo5{
+    background-image: url(../img/img5.jpeg);
+}
+
+.photo6{
+    background-image: url(../img/img6.jpeg);
+}
+.photo7{
+    background-image: url(../img/img7.jpeg);
+}
+.photo8{
+    background-image: url(../img/img8.jpeg);
+}
+.photo9{
+    background-image: url(../img/img9.jpeg);
+}
+.photo10{
+    background-image: url(../img/img10.jpeg);
+}
+.photo11{
+    background-image: url(../img/img11.jpg);
+}
+
+.photo12{
+    background-image: url(../img/img12.jpeg);
+}
